@@ -1,7 +1,6 @@
 function init(){
-//add your javascrip between these two lines of code
-	var messageInput = document.getElementById("entryinput";
-	var messageOutput = document.getElementById("textoutput");
+
+	var messageInput = document.getElementById("entryinput");
 	var button1 = document.getElementById("entrybutton");
 	
 	function messageAlert() {
@@ -12,8 +11,7 @@ function init(){
 	
 	button1.addEventListener('click', messageAlert);
 
-
-
+}
 
 
 
